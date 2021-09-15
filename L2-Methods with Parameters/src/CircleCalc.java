@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.text.DecimalFormat;
-import javax.swing.*;
+
 public class CircleCalc {
 
 
@@ -17,12 +17,17 @@ public class CircleCalc {
     public static void area(double radius){
         DecimalFormat round = new DecimalFormat("#.##");
 
-        double radius = Double.parseDouble(JOptionPane.showInputDialog("What is the radius of a circle"));
-        double area = Math.pow(radius,2) * Math.PI;
 
-        JOptionPane.showMessageDialog(null, "The circumference is" + round.format(circumference));
+        double area = Math.PI * Math.pow(radius, 2);
+
+        JOptionPane.showMessageDialog(null, "The area is" + round.format(area));
     }
+public static void circumference(double radius){
+        DecimalFormat round = new DecimalFormat("#.##");
+        double circumference = 2 * Math.PI * radius;
 
+        JOptionPane.showMessageDialog(null, "The circumference is " + round.format(circumference));
+}
 
     //re-write the method to calculate a circle's perimeter using parameters
 
