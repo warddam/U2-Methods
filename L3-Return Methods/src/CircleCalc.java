@@ -16,7 +16,7 @@ public class CircleCalc {
 
     public static void main(String[] args) {
 
-        double radius = getInput("What is the radius?");
+
 
 
         //create and run the program
@@ -28,7 +28,7 @@ public class CircleCalc {
         }
 
 
-    }
+
 
     //re-write the method to calculate a circle's area using parameters and return statement
 public static double area(double radius){

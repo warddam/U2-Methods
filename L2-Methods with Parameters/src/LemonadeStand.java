@@ -24,7 +24,7 @@ public class LemonadeStand {
 
     public static void main(String[] args) {
 
-        int num16 = Integer.parseInt(JOptionPane.showInputDialog("How many 16 oz cups"));
+        int num16 = Integer.parseInt(JOptionPane.showInputDialog("How many 16 oz cups "));
 
         int num20 = Integer.parseInt(JOptionPane.showInputDialog("How many 20 oz cups?"));
 
