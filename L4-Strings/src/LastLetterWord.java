@@ -15,7 +15,7 @@ public class LastLetterWord {
         String word1 = JOptionPane.showInputDialog("Enter word 1: ");
          String word2 = JOptionPane.showInputDialog("Enter word 2: ");
         String word3 = JOptionPane.showInputDialog("Enter word 3: ");
-JOptionPane.showMessageDialog(null, lastThree(word1) + Lasthree(word2) + LastThree(word3));
+JOptionPane.showMessageDialog(null, lastThree(word1) + lastThree(word2) + lastThree(word3));
     }
 
 
