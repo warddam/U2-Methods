@@ -18,7 +18,7 @@ public class SimpleFrame
     }
 
 
-private static class ButtonListener implements ActionListener {
+private static class ButtonListener implements ActionListener{
 
 
     public void actionPeformed(ActionEvent e) {
