@@ -30,10 +30,10 @@ public class Quotes {
         window.setVisible(true);
 
     }
+
 }
-    private static class Quo
-    }
-}
+
+
 
 
 
