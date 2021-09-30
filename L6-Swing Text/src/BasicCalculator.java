@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class BasicCalculator {
 
@@ -10,17 +11,27 @@ public class BasicCalculator {
 
     NO POP-UPS
      */
-}
-
-
-
-
 
     public static void main(String[] args) {
+JFrame window = new JFrame("Simple calculator");
+JPanel panel = new JPanel();
+
+
+
+
+
 
 
 
 
 
     }
+}
+
+
+
+
+
+
+
 

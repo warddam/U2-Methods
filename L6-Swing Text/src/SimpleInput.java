@@ -7,15 +7,12 @@ import java.awt.event.ActionListener;
 public class SimpleInput {
 
 static int clickerCount = 0;
-static JLabel clickercountlabel;
-static JTextField textInputField;
+static JLabel clickerCountLabel;
 
     public static void main(String[] args) {
-        JFrame window = new JFrame("Clicker game");
+        JFrame window = new JFrame("CLICKER GAME");
         JPanel panel = new JPanel();
-        textInputField = new JTextField(10);
-        JLabel clickerCountLabel = new JLabel("Balance : $");
-        JLabel textInputLabel = new JLabel("Enter a Multiplier");
+        clickerCountLabel = new JLabel("Balance : $");
         JButton clicker = new JButton("Click for $1");
 
         window.setSize(250, 200);
@@ -24,13 +21,14 @@ static JTextField textInputField;
 
         clicker.addActionListener(new ClickerListener());
 
-        panel.add(textInputLabel);
-        panel.add(textInputField);
-        panel.add(clickercountlabel);
+
+        panel.add(clickerCountLabel);
         panel.add(clicker);
         window.add(panel);
 
         window.setVisible(true);
+
+
 
 
 
@@ -39,17 +37,17 @@ static JTextField textInputField;
 
 }
 
-
         private static class ClickerListener implements ActionListener {
 
 
             public void actionPeformed(ActionEvent actionEvent) {
 
-                clickerCount += multiplier;
+                clickerCount++;
 
                 clickerCountLabel.setText("Balance: $ " + clickerCount);
             }
         }
+
 
 
 
