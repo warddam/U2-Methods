@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class ChangingColorsGUI {
 
@@ -27,18 +28,46 @@ public class ChangingColorsGUI {
         colorClicker = new JButton("Change the Colors");
 
         //create a new Custom color
+        Color panelBack = new Color(220, 220, 220);
+        Color buttonBack = new Color(34, 49, 2);
+        Color buttonFront = new Color(100, 50, 27);
 
         //Set the colors of our buttons and panel
+
+       panel.setBackground(panelBack);
+       colorClicker.setForeground(buttonBack);
+       colorClicker.setForeground(buttonFront);
+
+
+
+
+        colorClicker.addActionListener(new ColorClickerListener());
 
         panel.add(colorClicker);
         window.add(panel);
 
         window.setVisible(true);
+
+
+
     }
 
     //Add a listener to change the color when the button is clicked
+    private class ColorClickerListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent actionEvent) {
+            panel.setBackground(panelBack);
+            colorClicker.setForeground(buttonBack);
+            colorClicker.setForeground(buttonFront);
 
 
 
 
-}
+        }
+        }
+    }
+
+
+
+
+
