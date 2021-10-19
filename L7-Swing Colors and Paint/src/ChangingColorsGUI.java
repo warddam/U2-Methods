@@ -17,7 +17,11 @@ public class ChangingColorsGUI {
     name as the class.
     */
 
-    public ChangingColorsGUI(){
+    public static void main(String[] args) {
+
+    }
+
+    public ChangingColorsGUI() {
 
         window = new JFrame("Color Changer");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,14 +38,12 @@ public class ChangingColorsGUI {
 
         //Set the colors of our buttons and panel
 
-       panel.setBackground(panelBack);
-       colorClicker.setForeground(buttonBack);
-       colorClicker.setForeground(buttonFront);
+        panel.setBackground(panelBack);
+        colorClicker.setForeground(buttonBack);
+        colorClicker.setForeground(buttonFront);
 
 
 
-
-        colorClicker.addActionListener(new ColorClickerListener());
 
         panel.add(colorClicker);
         window.add(panel);
@@ -49,23 +51,13 @@ public class ChangingColorsGUI {
         window.setVisible(true);
 
 
-
     }
+}
 
     //Add a listener to change the color when the button is clicked
-    private class ColorClickerListener implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent actionEvent) {
-            panel.setBackground(panelBack);
-            colorClicker.setForeground(buttonBack);
-            colorClicker.setForeground(buttonFront);
 
 
 
-
-        }
-        }
-    }
 
 
 
