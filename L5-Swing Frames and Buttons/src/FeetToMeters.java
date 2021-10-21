@@ -28,9 +28,9 @@ public class FeetToMeters {
     }
 }
 
-    private class FeetToMeter implements ActionListener {
+     class FeetToMeter implements ActionListener {
 
-        public void actionPeformed(ActionEvent actionEvent) {
+        public void actionPerformed(ActionEvent actionEvent) {
 
             double feet = Double.parseDouble(JOptionPane.showInputDialog("enter the number of feet :"));
             double meters = feet / 3.28;
@@ -38,11 +38,10 @@ public class FeetToMeters {
         }
     }
 
-    private static class  meterToFeet implements ActionListener {
+    class meterToFeet implements ActionListener {
 
 
-
-        public void actionPeformed(ActionEvent actionEvent) {
+        public void actionPerformed(ActionEvent actionEvent) {
 
             double meters = Double.parseDouble(JOptionPane.showInputDialog("Enter the number of meters: "));
             double feet = meters * 3.28;
