@@ -10,7 +10,7 @@ public class ChangingColorsGUI {
         JFrame window;
         JFrame panel;
         JFrame colorClicker;
-
+k
 
         public static void main(String[] args) {
 
