@@ -18,7 +18,7 @@ public class Quotes {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocationRelativeTo(null);
 
-        quote1But.addActionListener(new QuoteBut1());
+        quote1But.addActionListener(new uoteBut1());
         quote2But.addActionListener(new QuoteBut2());
         quote3But.addActionListener(new QuoteBut3());
 

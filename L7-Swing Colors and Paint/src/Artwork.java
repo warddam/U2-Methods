@@ -7,9 +7,18 @@ KEEP IT SIMPLE, like a house, car, train, bike, stick figures
  Create the GUI and drawing in the ArtworkGUI class.
  */
 
+import javax.swing.*;
+
 public class Artwork {
+
+
+
+
+
 
     public static void main(String[] args) {
         //Create your class object
+        new ArtworkGUI();
+
     }
 }
