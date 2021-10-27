@@ -32,10 +32,25 @@ public class ArtworkGUI {
         public void paintComponent(Graphics g){
 
             super.paintComponent(g);
-            g.fillRect(50, 50, 50, 50);
+            g.fillRect(50, 50, 100, 100);
             g.setColor(Color.BLACK);
-            g.fillRect(100, 100, 100, 100);
+            g.fillRect(200, 200, 100, 100);
             g.setColor(Color.BLACK);
+            g.fillRect(75,75,10,10);
+            g.setColor(Color.cyan);
+            g.fillRect(100,100,10,10);
+            g.setColor(Color.cyan);
+            g.fillRect(76,100,10,10);
+            g.setColor(Color.cyan);
+            g.fillRect(120,100,10,10);
+            g.setColor(Color.cyan);
+            g.fillRect(100,80,10,10);
+            g.setColor(Color.cyan);
+            g.fillRect(250,250,100,100);
+            g.setColor(Color.MAGENTA);
+            g.fillRect(150,150,100,100);
+            g.setColor(Color.GREEN);
+
 
         }
     }
