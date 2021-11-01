@@ -18,7 +18,7 @@ public class BasicCalculator {
     public static JLabel finalLabel = new JLabel("");
 
     public static void main(String[] args) {
-        JFrame tab = new JFrame("Cal");
+        JFrame tab = new JFrame("Calc");
         JPanel panel = new JPanel();
         JLabel numberLabel = new JLabel("Number input: ");
         JLabel numberLabel2 = new JLabel("Number input 1");

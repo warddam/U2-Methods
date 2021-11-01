@@ -54,7 +54,7 @@ public class ColorSwitchGUI {
     private class Creme implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent actionEvent){
-            Color panelBack = new Color(255, 130, 67);
+            Color panelBack = new Color(255, 130, 66);
             Color buttonBack = new Color(253, 166, 93);
             Color buttonText = new Color(255, 208, 127);
 
